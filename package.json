@@ -1,0 +1,29 @@
+{
+  "name": "tanstack-router-stream",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "keywords": [],
+  "author": "Nick Taylor <nick@nickyt.co>",
+  "license": "MIT",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@tanstack/react-router": "^1.97.8",
+    "@tanstack/start": "^1.97.13",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "vinxi": "^0.5.1",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.3"
+  }
+}

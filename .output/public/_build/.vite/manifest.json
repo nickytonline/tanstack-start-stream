@@ -1,0 +1,47 @@
+{
+  "_client-CLAt3_ML.js": {
+    "file": "assets/client-CLAt3_ML.js",
+    "name": "client",
+    "dynamicImports": [
+      "app/routes/about.tsx?tsr-split",
+      "app/routes/index.tsx?tsr-split",
+      "app/routes/index.tsx?tsr-split"
+    ]
+  },
+  "_link-1ruuuCHp.js": {
+    "file": "assets/link-1ruuuCHp.js",
+    "name": "link",
+    "imports": [
+      "_client-CLAt3_ML.js"
+    ]
+  },
+  "app/routes/about.tsx?tsr-split": {
+    "file": "assets/about-BbJYqyPz.js",
+    "name": "about",
+    "src": "app/routes/about.tsx?tsr-split",
+    "isDynamicEntry": true,
+    "imports": [
+      "_client-CLAt3_ML.js",
+      "_link-1ruuuCHp.js"
+    ]
+  },
+  "app/routes/index.tsx?tsr-split": {
+    "file": "assets/index-DdFMifHK.js",
+    "name": "index",
+    "src": "app/routes/index.tsx?tsr-split",
+    "isDynamicEntry": true,
+    "imports": [
+      "_client-CLAt3_ML.js",
+      "_link-1ruuuCHp.js"
+    ]
+  },
+  "virtual:$vinxi/handler/client": {
+    "file": "assets/client-AHpGHDIg.js",
+    "name": "client",
+    "src": "virtual:$vinxi/handler/client",
+    "isEntry": true,
+    "imports": [
+      "_client-CLAt3_ML.js"
+    ]
+  }
+}

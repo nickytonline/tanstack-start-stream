@@ -1,0 +1,1 @@
+import{j as o}from"./client-CLAt3_ML.js";import{L as t}from"./link-1ruuuCHp.js";const s=function(){return o.jsxs(o.Fragment,{children:[o.jsxs("nav",{style:{display:"flex",gap:"4px"},children:[o.jsx(t,{to:"/",children:"Home"}),o.jsx(t,{to:"/abou",children:"About"})]}),o.jsx("h1",{children:"About"}),o.jsx("p",{children:"TanStack router is dope"})]})};export{s as component};

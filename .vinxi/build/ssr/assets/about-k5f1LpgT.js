@@ -1,0 +1,1 @@
+import{jsxs as n,Fragment as t,jsx as o}from"react/jsx-runtime";import{Link as r}from"@tanstack/react-router";const l=function(){return n(t,{children:[n("nav",{style:{display:"flex",gap:"4px"},children:[o(r,{to:"/",children:"Home"}),o(r,{to:"/abou",children:"About"})]}),o("h1",{children:"About"}),o("p",{children:"TanStack router is dope"})]})};export{l as component};

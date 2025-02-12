@@ -1,0 +1,35 @@
+{
+  "_ssr-BnSvopOy.js": {
+    "file": "assets/ssr-BnSvopOy.js",
+    "name": "ssr",
+    "dynamicImports": [
+      "app/routes/about.tsx?tsr-split",
+      "app/routes/index.tsx?tsr-split",
+      "app/routes/index.tsx?tsr-split"
+    ]
+  },
+  "app/routes/about.tsx?tsr-split": {
+    "file": "assets/about-k5f1LpgT.js",
+    "name": "about",
+    "src": "app/routes/about.tsx?tsr-split",
+    "isDynamicEntry": true
+  },
+  "app/routes/index.tsx?tsr-split": {
+    "file": "assets/index-XXg7Jf5j.js",
+    "name": "index",
+    "src": "app/routes/index.tsx?tsr-split",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ssr-BnSvopOy.js"
+    ]
+  },
+  "virtual:$vinxi/handler/ssr": {
+    "file": "ssr.js",
+    "name": "ssr",
+    "src": "virtual:$vinxi/handler/ssr",
+    "isEntry": true,
+    "imports": [
+      "_ssr-BnSvopOy.js"
+    ]
+  }
+}
